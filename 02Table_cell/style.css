@@ -1,0 +1,9 @@
+td{
+    border: 1px solid rgb(91, 25, 152);
+    background-image: linear-gradient(rgb(116, 209, 202), rgb(149, 110, 197));
+    padding: 30px;
+}
+
+table{
+    border: 3px solid rgb(58, 22, 91);
+}

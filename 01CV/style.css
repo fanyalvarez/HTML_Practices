@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    flex-direction:row;
+}
+
+img{
+    width: 180px;
+}
+
+.name{
+    margin-left: 20px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-direction:row;
+}
+
+.skills{
+    width: 160px;
+}
+
+.improv{
+    width: auto;
+}
