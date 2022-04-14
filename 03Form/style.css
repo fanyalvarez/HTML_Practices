@@ -1,75 +1,85 @@
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
-    background-image:linear-gradient(white,rgb(195, 198, 220)) ;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-section{
-    margin-top:30px;
+
+main{
+    background-image: linear-gradient(white, rgb(195, 198, 220));
+    width: 600px;
+}
+
+section {
+    margin-top: 30px;
     margin-left: 20px;
 }
 
-h1{
+h1 {
     font-weight: 700;
     margin-bottom: 1px;
     color: rgb(19, 19, 104);
 }
 
-h2{
+h2 {
     font-weight: 500;
     margin-top: 1px;
     margin-bottom: 17px;
     color: rgb(19, 19, 104);
 }
 
-.section2{
+.section2 {
     margin-left: 70px;
 }
+
 div {
-margin-left: 30px;
-margin-bottom: 6px;
-width: 600px;
+    margin-left: 30px;
+    margin-bottom: 6px;
+    width: 600px;
 
 }
 
-input{
-    max-width: 500px;
+input {
+    width: 250px;
     margin-right: 0%;
 }
 
-.first{
+.first {
     margin-bottom: 30px;
 }
 
-.last{
-   margin-left: 3px;
+.last {
+    margin-left: 1px;
 }
 
-.password{
-    margin-left: -28px;
+.email{
+    margin-left: 1px;
 }
 
-.im{
-    margin-left: 50px;
+.password {
+    margin-left: -29px;
 }
 
-.birthday{
+.im {
+    margin-left: 48px;
+}
+
+.birthday {
     margin-left: 18px;
 }
 
-select{
+select {
     background-color: white;
     font-weight: 500;
 }
 
-p{
-    margin-left: 96px;
+p {
+    margin-left: 90px;
     margin-top: 1px;
     margin-bottom: 3px;
     font-size: small;
     color: rgb(47, 47, 177);
 }
 
-button{
-    margin-left: 95px;
+button {
+    margin-left: 90px;
     background-color: rgb(34, 138, 34);
     color: white;
     font-weight: 500;
@@ -77,12 +87,20 @@ button{
     padding-bottom: 2px;
 }
 
-a{
+.line{
+    border: 1px solid rgb(141, 140, 140);
+    width: 500px;
+    margin-left: -60px;
+    margin-top: 10px;
+    
+}
+
+a {
     text-decoration: none;
     color: rgb(4, 4, 128);
     font-weight: 500;
 }
 
-.anchor{
+.anchor {
     color: black;
 }
