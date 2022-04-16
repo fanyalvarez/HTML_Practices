@@ -1,0 +1,90 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    margin-left: 50px;
+}
+
+section {
+    height: 180px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+#france {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#france div:nth-child(1) {
+    height: 180px;
+    width: 100px;
+    background-color: blue;
+}
+
+#france div:nth-child(2) {
+    height: 180px;
+    width: 100px;
+    background-color: red;
+}
+
+#germany {
+    display: flex;
+    flex-direction: column;
+}
+
+#germany div:nth-child(1) {
+    height: 60px;
+    width: 300px;
+    background-color: black;
+}
+
+#germany div:nth-child(2) {
+    height: 60px;
+    width: 300px;
+    background-color: red;
+}
+
+#germany div:nth-child(3) {
+    height: 60px;
+    width: 300px;
+    background-color: gold;
+}
+
+#england {
+    display: flex;
+}
+
+#england div:nth-child(1) {
+    height: 180px;
+    width: 30px;
+    background-color: red;
+    margin-left: 135px;
+    z-index: -3;
+    position: absolute;
+    align-items: center;
+}
+
+#england div:nth-child(2) {
+    height: 30px;
+    width: 300px;
+    background-color: red;
+    margin-top: 75px;
+}
+
+#japan{
+    display: flex;
+
+}
+
+#japan div{
+ width: 100px;
+ height: 100px;
+ background-color: red;
+ border-radius: 50px;
+ margin: auto;
+}
