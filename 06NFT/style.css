@@ -1,0 +1,99 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 18px;
+}
+
+#card {
+    margin-top: 120px;
+    height: 680px;
+    width: 380px;
+    border-radius: 4%;
+    background-color: hsl(216, 50%, 16%);
+    padding: 30px;
+    margin: auto;
+}
+
+.equil {
+    height: 380px;
+    width: 378px;
+    border-radius: 4%;
+    margin: auto;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+.p {
+    font-size: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+.divcenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.divcenter div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    width: 113px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divcenter div:nth-child(1) img {
+    width: 13px;
+    height: 23px;
+}
+
+.point {
+    color: hsl(178, 100%, 50%);
+    font-size: 20px;
+}
+
+.divcenter div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divcenter div:nth-child(2) img {
+    width: 23px;
+    height: 23px;
+}
+
+.last {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 290px;
+    margin-top: 15px;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+a {
+    font-size: 19px;
+}
+
+.last a:nth-child(1) {
+    text-decoration: none;
+    color: hsl(215, 51%, 70%);
+}
+
+.last a:nth-child(2) {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
