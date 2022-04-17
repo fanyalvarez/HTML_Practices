@@ -13,6 +13,7 @@ body {
     background-color: hsl(216, 50%, 16%);
     padding: 30px;
     margin: auto;
+    box-shadow: 20px 50px 5px hsl(220, 49%, 10%)
 }
 
 .equil {
