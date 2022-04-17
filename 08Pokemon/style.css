@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(28, 25, 25);
+    margin: 0%;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 1000;
+}
+
+header {
+    background-image: linear-gradient(180deg, rgb(216, 25, 25) 50%, rgb(255, 255, 255) 50%);
+    margin: 0%;
+}
+
+#logo {
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 120px;
+}
+
+.card {
+    width: 250px;
+    height: 450px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(105, 105, 155);
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin-top: -20px;
+    margin-left: -20px;
+    z-index: 3;
+    position: static;
+}
+
+.circle {
+    background-color: rgb(168, 167, 158);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.circle~div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 180px;
+}
+
+span {
+    padding: 5px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 7px 15px;
+}
+
+.name {
+    font-size: 29px;
+}
+
+.ghost {
+    background-color: mediumorchid;
+}
+
+.fire {
+    background-color: rgb(219, 32, 32);
+    color: white;
+}
+
+.water {
+    background-color: rgb(21, 94, 204);
+    color: white;
+}
+
+.fairy {
+    background-color: rgb(213, 147, 169);
+}
+
+.rock {
+    background-color: rgb(114, 66, 66);
+    color: white;
+}
+
+.sinister {
+    background-color: grey;
+}
+
+.figth {
+    background-color: rgb(65, 78, 65);
+    color: white;
+}
+
+.ice {
+    background-color: rgb(127, 255, 253);
+}
+
+.psychic {
+    background-color: rgb(122, 45, 122);
+    color: white;
+}
+
+.dragon {
+    background-image: linear-gradient(180deg, rgb(116, 128, 205) 50%, rgb(83, 181, 103) 50%);
+}
