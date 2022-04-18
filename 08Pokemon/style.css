@@ -12,14 +12,15 @@ nav {
 }
 
 #logo {
+    top: 4px;
     width: 350px;
     height: 150px;
-} 
+}
 
 main {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 120px;
+    justify-content: center;
 }
 
 .card {
@@ -33,7 +34,7 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-  
+
     text-align: center;
     position: relative;
 }
@@ -42,10 +43,15 @@ img {
     width: 280px;
     height: 280px;
     z-index: 3;
-    position:relative;
+    position: relative;
     margin: auto;
     top: -30px;
     left: -40px;
+}
+
+img:hover{
+    transform: scale(1.3);
+    cursor: pointer;
 }
 
 .circle {
@@ -54,7 +60,8 @@ img {
     height: 200px;
     border-radius: 100px;
 }
-h2{
+
+h2 {
     font-size: 29px;
 }
 
@@ -120,68 +127,84 @@ span {
 .dragon {
     background-image: linear-gradient(180deg, rgb(116, 128, 205) 50%, rgb(83, 181, 103) 50%);
 }
-.plant{
+
+.plant {
     background-color: rgb(60, 148, 60);
 }
 
-
-#mismagius{
+#mismagius {
     background-color: rgb(193, 138, 207);
 }
-#squirtle{
+
+#squirtle {
     background-color: rgb(58, 147, 58);
 }
-#purrloin{
-    background-color:slategrey;
+
+#purrloin {
+    background-color: slategrey;
 }
-#rapidash{
+
+#rapidash {
     background-color: rgb(206, 161, 106);
 }
-#dragonair{
+
+#dragonair {
     background-color: rgb(78, 39, 39);
 }
-#dragonair h2{
+
+#dragonair h2 {
     color: white
 }
-#marill{
+
+#marill {
     background-color: rgb(203, 203, 113);
 }
-#kirlia{
-   
+
+#kirlia {
+
     background-color: rgb(208, 112, 112);
 }
 
-#tirtouga{
+#tirtouga {
     background-color: rgb(29, 82, 29);
 }
-#tirtouga h2{
+
+#tirtouga h2 {
     color: white;
-}
-#mienfoo{
-    background-color: rgb(202, 187, 166);
-}
-#bellossom{
-    background-color: rgb(67, 122, 134);
-}
-#reshiram{
-    background-color: rgb(41, 40, 40) ;
 }
 
-#reshiram h2{
+#mienfoo {
+    background-color: rgb(202, 187, 166);
+}
+
+#bellossom {
+    background-color: rgb(67, 122, 134);
+}
+
+#reshiram {
+    background-color: rgb(41, 40, 40);
+}
+
+#reshiram h2 {
     color: white;
 }
-#cubchoo{
-    background-color:rgb(125, 61, 125) ;
+
+#cubchoo {
+    background-color: rgb(125, 61, 125);
 }
-#cubchoo h2{
+
+#cubchoo h2 {
     color: white
 }
-#tepig{
-    background-color:peru ;
+
+#tepig {
+    background-color: peru;
 }
-#cresselia{
-    background-color:rgb(201, 201, 134) ;
+
+#cresselia {
+    background-color: rgb(201, 201, 134);
 }
-#totodile{
+
+#totodile {
     background-color: rgb(105, 105, 155);
 }
